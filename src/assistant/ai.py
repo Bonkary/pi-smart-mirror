@@ -37,7 +37,7 @@ def send_message(message: str, max_tokens: int = 1024) -> str:
     """Send a message along with the conversation so far and return Claude's reply."""
     history.append({"role": "user", "content": message})
     try:
-        response = Anthropic.messages.create(
+        response = ANTHROPIC.messages.create(
             model=ModelConfig.Model,
             max_tokens=max_tokens,
             system=ModelConfig.SystemPrompt,
