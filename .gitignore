@@ -1,0 +1,9 @@
+## Files
+.env
+*.jpg
+*.JPG
+*.png
+*.PNG
+
+## Directories
+.vscode/
