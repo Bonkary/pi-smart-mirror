@@ -4,6 +4,8 @@
 *.JPG
 *.png
 *.PNG
+*.mp3
 
 ## Directories
 .vscode/
+__pycache__/
